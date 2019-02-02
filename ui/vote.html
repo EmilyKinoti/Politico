@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scaled=1.0">
+        <meta charset="utf-8">
+        <meta name="author" content="Emily Kinoti">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>POLITICO</title>
+    </head>
+    <body>
+        <!-- start of header section-->
+  <header>
+        <div>
+          <div id="branding">
+            <h1><a href="index.html">POLITICO</a></h1>
+          </div>
+          <nav>
+            Your Vote Your Future
+          </nav>
+        </div>
+      </header>
+      <!--  end of header section-->
+      <section>
+        <div class="text_centered">
+      </div>
+        <div>
+          <fieldset class=" text_centered ">
+            <div class="dashboard">
+              <h2>Vote</h2>
+              <table>
+                <tr>
+                  <th>No</th>
+                  <th colspan="2">Government Office</th>
+                </tr>
+                <tr>
+                  <td class="td-width">1</td>
+                  <td> <h4>Governor</h4></td>
+                  <td width=30%> <button class="update-btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">vote</button></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                   <td> <h4>Senator</h4></td>
+                  <td> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">vote</button></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td> <h4>Mca</h4></td>
+                  <td><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">vote</button></td>
+                </tr>
+              </table>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <h1>Vote</h1>
+            <hr>
+            <label for="candidatename"><b>Candidate Name</b></label>
+            <input type="text" placeholder="Enter party name" name="party-name" required>
+            <label for="candidatename"><b>Government Office Name</b></label>
+            <input type="text" placeholder="Enter Government Office name" name="governmentofficename" required>
+            <div class="clearfix">
+              <button type="submit" class="votebtn">Vote</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    
+    <!-- start of footer section -->
+    <footer id="footer">
+     <p>Politico Copyright &copy 2019</p>
+    </footer>
+     <!-- end of footer section -->       
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+</script>
+
+    </body>
+</html>
