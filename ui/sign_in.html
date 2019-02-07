@@ -9,35 +9,37 @@
     </head>
     <body>
         <!-- start of header section-->
-  <header>
-        <div>
-          <div id="branding">
-            <h1><a href="index.html">POLITICO</a></h1>
+
+      <header class="header">
+        <div class="nav-brand">
+              <a class="logo" href="index.html">Politico</a>
           </div>
-          <nav class="nav-wrapper">
-              <ul class="main-nav">
-                  <li><a href="index.html" title="home">Home</a></li>
-                  <li><a href="admin_dashboard.html" title="Admindashboard">Admin Dashboard</a></li>
-                  <li><a href="user_dashboard.html" title="Userdashboard">User Dashboard</a></li> 
-                  <li><a href="politician_dashboard.html" title="Politiciandashboard">Politician Dashboard</a></li>
-                  <li class="current"><a href="#dashboard" title="dashboard">Dashboard</a></li>
-                  
-              </ul>
+          <nav>
+            <ul class="main-nav">
+                <li><a href="index.html" title="home">Home</a></li>
+            </ul>
           </nav>
-        </div>
       </header>
       <!--  end of header section-->
       <!-- start of form-->
-      <form class="container" action="sign_up.html" method="post">
+
+      <section class=" banner">
+         <div class="container">
+           <h2 style="color:#fff;">Sign In</h2>
+
+         </div>
+     </section>
+
+      <form class="container" action="sign_in.html" method="post">
           <fieldset>
-                <h1 class="text_centered">Sign In</h1>                
-                <div class="text_centered">                
+                <h1 class="text_centered">Sign In</h1>
+                <div class="text_centered">
                   <div class="spacing">
                     <input type="text" name="username" placeholder="Username" required>
-                  </div>                  
+                  </div>
                   <div class="spacing">
                     <input type="password" name="password" placeholder="Password" required>
-                  </div>                  
+                  </div>
                   <div class="spacing">
                     <input class='submit_button' id="white" type="submit" name="submit" value="Sign In">
                   </div>
@@ -45,15 +47,15 @@
           </fieldset>
         </form>
         <div class="text_centered">
-            <p id="blue">forgot password?<a id="blue" href="reset_password.html">reset password</a> </p>
+            <p id="white">forgot password?<a id="white" href="reset_password.html">reset password</a> </p>
         </div>
     <!-- end of form section -->
-    
+
     <!-- start of footer section -->
     <footer id="footer">
      <p>Politico Copyright &copy 2019</p>
     </footer>
-     <!-- end of footer section -->       
+     <!-- end of footer section -->
 
     </body>
 </html>

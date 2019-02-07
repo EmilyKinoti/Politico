@@ -8,17 +8,27 @@
         <title>POLITICO</title>
     </head>
     <body>
-        <!-- start of header section-->
-  <header>
-        <div>
-          <div id="branding">
-            <h1><a href="index.html">POLITICO</a></h1>
-          </div>
-          <nav>
-            Your Vote Your Future
-          </nav>
+      <!-- start of header section-->
+
+    <header class="header">
+      <div class="nav-brand">
+            <a class="logo" href="index.html">Politico</a>
         </div>
-      </header>
+        <nav>
+          <ul class="main-nav">
+              <li><a href="index.html" title="home">Home</a></li>
+          </ul>
+        </nav>
+    </header>
+    <!--  end of header section-->
+    <!-- start of form-->
+
+    <section class=" banner">
+       <div class="container">
+         <h2 style="color:#fff;">Create Party</h2>
+
+       </div>
+   </section>
       <!--  end of header section-->
       <!-- start of form-->
       <form class="container">
@@ -27,7 +37,10 @@
                 <div class="text_centered">           
                   <div class="spacing">
                     <input type="text" name="partyname" placeholder="Enter Party name" required>
-                  </div>                  
+                  </div>  
+                  <div class="spacing">
+                    <input type="text" name="partyid" placeholder="Enter Party Id" required>
+                  </div>                
                   <div class="spacing">
                     <input type="text" name="slogan" placeholder="Enter Slogan" required>
                   </div>                  
