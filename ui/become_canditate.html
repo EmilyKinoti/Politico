@@ -8,18 +8,27 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <!-- start of header section-->
-  <header>
-        <div class="container">
-          <div id="branding">
-            <h1><a href="become_canditate.html">POLITICA</a></h1>
-          </div>
-          <nav>
-            Your Vote Your Future
-          </nav>
+      <!-- start of header section-->
+
+    <header class="header">
+      <div class="nav-brand">
+            <a class="logo" href="index.html">Politico</a>
         </div>
-      </header>
-      <!--  end of header section-->
+        <nav>
+          <ul class="main-nav">
+              <li><a href="index.html" title="home">Home</a></li>
+          </ul>
+        </nav>
+    </header>
+    <!--  end of header section-->
+    <!-- start of form-->
+
+    <section class=" banner">
+       <div class="container">
+         <h2 style="color:#fff;">Become Candidate</h2>
+
+       </div>
+   </section>
       <!-- start of form-->
       <form class="container" action="sign_up.html" method="post">
           <fieldset>
@@ -34,6 +43,12 @@
                     <input type="email" name="emailaddress" placeholder="Enter Email Address" required>
                   </div>
                   <div class="spacing">
+                    <input type="text" name="partyname" placeholder="Enter Party Name" required>
+                  </div>
+                  <div class="spacing">
+                    <input type="text" name="officename" placeholder="Enter office Name" required>                  
+                  <div class="spacing">
+                  <div class="spacing">
                     <label>Gender:
                     <select>
                         <option value="Female">Female</option>
@@ -43,7 +58,7 @@
                   </div>
                   <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                   <div class="spacing">
-                    <input class='submit_button' id="white" type="submit" name="submit" value="Candidate">
+                    <input class='submit_button' id="white" type="submit" name="submit" value="Register">
                   </div>
               </div>
           </fieldset>

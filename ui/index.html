@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Emily Kinoti">
-  <meta name="viewpoint" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Politico/</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -12,38 +12,54 @@
 <body>
     <!--======================header============================ -->
     <header class="header">
+      <div class="nav-brand">
             <a class="logo" href="index.html">Politico</a>
         </div>
-        <nav class="nav-wrapper">
+        <nav>
             <ul class="main-nav">
-                <!-- <li><a href="admin-dashboard.html" title="home">Home</a></li>
-                <li><a href="#" title="Government Office">Government Office</a></li>
-                <li><a href="#Parties" title="Political Parties">Political Parties</a></li> -->
-                <li class="current"><a href="#dashboard" title="dashboard">Dashboard</a></li>
-                
+                <li><a href="index.html" title="home">Home</a></li>                
             </ul>
         </nav>
-    </header> 
-    <form class="container">
-      <fieldset>
-        <h1 class="text_centered">POLITICA</h1>
-        <div class="container">
-         <div class="dashboard">
-            <div class="buttons">
-                    <a class="button button-secondary" href="sign_up.html">Sign up</a><br>
-                    <a class="button button-secondary" href="sign_in.html">Sign In</a><br>                    
-            </div>
+    </header>
+    <section class=" banner-home">
+       <div class="container">
+         <h2 style="color:#fff;">Democracy lives here</h2>
+         <p>We believe your vote is your future.</p>
+         <p>Come all lets VOTE!</p>
+
+           <a href="sign_in.html" class="btn">Sign In</a>
+           <a href="sign_up.html" class="btn">Sign Up</a>
+
+       </div>
+   </section>
+
+    <div class="container">
+
+        <h1 class="text_centered">More About Us</h1>
+        <div class="politico-box">
+           <div class="box-items">
+             <a class="button button-secondary" href="sign_up">Join Politico</a><br>
+           </div>
+           <div class="box-items">
+             <a class="button button-secondary" href="politicalparties.html">View Political Parties</a><br>
+           </div>
+           <div class="box-items">
+             <a class="button button-secondary" href="view_politician.html">View Politicians</a><br>
+           </div>
+           <div class="box-items">
+             <a class="button button-secondary" href="become_candidate.html">Become Candidate</a><br>
+           </div>
         </div>
-    </fieldset>
-    </form>          
- 
-    </header>  
+
+
+    </div>
+
     <!-- start of footer section -->
 <footer id="footer">
     <p>Politica Copyright &copy 2019</p>
-    </footer>
+</footer>
     <!-- end of footer section -->
-    
+
     </body>
-    
+
     </html>
